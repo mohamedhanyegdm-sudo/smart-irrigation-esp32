@@ -1,11 +1,25 @@
-# Smart Irrigation System (ESP32)
+# Smart Irrigation System
 
-An IoT-based automated irrigation system built on an ESP32 (2025).
+An IoT Smart Irrigation System built with a microcontroller (Arduino Uno / ESP) and a soil moisture sensor that monitors soil conditions in real time (2025).
 
-## What it does
-- Monitors soil moisture with a sensor
-- Controls water flow automatically based on the readings
-- Reduces manual intervention and helps use water more efficiently through sensor-driven actuation
+The system automatically controls water irrigation based on soil moisture levels. When the soil becomes dry, a water pump is activated through a relay module. Once the desired moisture level is reached, the system stops irrigation automatically.
+
+## Key components
+- Soil moisture sensor
+- LCD display for real-time monitoring
+- Relay module to control the water pump
+- Breadboard and jumper wires
+- Microcontroller (Arduino / ESP)
+
+## Working principle
+- The sensor measures soil moisture continuously
+- The data is processed by the microcontroller
+- If moisture is below a predefined threshold, irrigation starts
+- If moisture is sufficient, irrigation stops
+- The LCD displays the system status (Dry / Wet / Moisture level)
+
+## Objective
+Optimize water usage, reduce manual effort, and improve irrigation efficiency in smart agriculture systems.
 
 ## Skills used
 ESP32, IoT, sensor integration, embedded programming.
